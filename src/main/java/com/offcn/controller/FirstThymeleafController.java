@@ -11,6 +11,7 @@ public class FirstThymeleafController {
     @GetMapping("/first")
     public String indexPage(Model model) {
         System.out.println("");
+        System.out.println("hello");
         return "index";
     }
 
